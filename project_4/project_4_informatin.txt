@@ -1,0 +1,7 @@
+This project again uses the UART and memory mapped GPIO.  Additionally, interrupts are enabled for both a timer and the UART
+and handlers for these interrupts are provided.
+
+The program displays instructions to the user along with a moving asterik character.  The asterik initially moves to the right
+and the direction of the movement can be controlled by the user.  The asterik will only change direction if a correct
+inpur is received from the user, and incorrect commands do not result in any strange behaviour.  Additionally, the asterik
+will stop moving when it has reached the beginnig or end of the output string.
