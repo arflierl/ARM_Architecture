@@ -1,0 +1,5 @@
+This project again uses the UART to receive data and display results to the user.  Additionally, memory mapped GPIO is used.  
+The program provides a menu which displays differnt commands ( keys ) the user can use to interact with the GPIO
+The RGB LED can be illuminated differnt colors or turned off via the commands, and the on-board momentary push button
+SW1 can be read ( is it being pressed or not? ) with the result being displayed to the user ( yes or no ).
+The program runs until the user presses 'q' to quit.  Incorrect commands result in an error message and a refreshed menu.
